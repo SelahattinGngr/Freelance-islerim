@@ -1,0 +1,169 @@
+
+Proje Detayları
+Hayvan Sınıfı
+
+Hayvanların ortak özelliklerini ve davranışlarını temsil eden Hayvan sınıfı oluşturulmalıdır.
+Hayvanın adı, türü ve yaşı verilerini içermelidir.
+Hayvanın bilgilerinin görüntülenebileceği bir fonksiyon içermelidir.
+Hayvanın bilgilerinin düzenlenebileceği bir fonksiyon içermelidir.
+Sanal (virtual) bir beslenme fonksiyonu olmalıdır. Bu fonksiyon, türetilmiş sınıflarda farklı şekillerde çalışmalıdır.
+
+
+
+
+
+
+
+
+2.	Hayvan Sınıfından Türetilen Sınıflar
+
+Aslan, Zebra, Kartal gibi hayvanları temsil eden sınıflar, Hayvan sınıfından türetilmelidir.
+Her sınıf, kendi türüne özgü özellikleri ve davranışları içermelidir.
+Örneğin, Aslan sınıfı, etle beslenme davranışına sahip olabilir.
+
+3.	Hayvanat Bahçesi Sınıfı
+
+Hayvanat bahçesini temsil eden bir sınıf oluşturulmalıdır.
+Hayvanların koleksiyonunu (dizi, liste veya vektör gibi) içeren bir veri üyesine sahip olmalıdır.
+Yeni hayvan eklemek, var olan hayvanları gösterme/düzenlemek ve besleme işlemlerini gerçekleştirmek gibi işlevleri içermelidir.
+
+
+
+
+Hayvanat bahçesi sınıfı, hayvanların özelliklerini ve beslenme durumlarını gösteren bir rapor üretmelidir.
+Üretilen raporda hayvanların kendi türleri arasındaki yaşları için harmonik ve aritmetik ortalamaları gösterilmelidir. Bu sebeple proje oluşturulurken 10, 5, 7 yaşlarında üç tane aslan eklenmelidir. 
+Hayvanlar gösterilirken her tür kendi içerisinde yaşa göre küçükten büyüğe doğru sıralanmalıdır.
+
+
+
+
+
+4.	Ana Program
+
+Ana program aracılığıyla kullanıcı, hayvanları ve hayvanat bahçesini yönetmelidir.
+Kullanıcıya, hayvan eklemek, hayvanları göstermek, hayvanları düzenlemek ve hayvanları beslemek gibi seçenekler sunmalıdır.
+Kullanıcıdan gerekli bilgileri alarak yeni hayvanları hayvanat bahçesine ekleyebilmeli ve mevcut hayvanları göstermelidir.
+Besleme işleminde, kullanıcı bir hayvan seçebilmeli ve seçilen hayvana uygun beslenme işlemini gerçekleştirebilmelidir.
+Kullanıcıya, hayvanların bilgilerini gösteren bir rapor sunulmalıdır.
+Kullanıcıya çıkış seçenegi sunularak program sonlandırılmalıdır.
+
+5.	Kullanıcı Arayüzü
+
+
+Kullanıcı dostu bir arayüz tasarlanmalıdır.
+Açılış ekranında adınız, soyadınız, öğrenci numaranız ve dersi aldığınız öğretim üyesinin ismi olmalıdır.
+Kullanıcıya, komutlar aracılığıyla seçenekler sunulmalıdır.
+Kullanıcıdan gerekli bilgiler alınırken hatalı girişleri engellemek için doğrulama yapılmalıdır.
+
+Proje Detayları
+Hayvan Sınıfı
+
+Hayvanların ortak özelliklerini ve davranışlarını temsil eden Hayvan sınıfı oluşturulmalıdır.
+Hayvanın adı, türü ve yaşı verilerini içermelidir.
+Hayvanın bilgilerinin görüntülenebileceği bir fonksiyon içermelidir.
+Hayvanın bilgilerinin düzenlenebileceği bir fonksiyon içermelidir.
+Sanal (virtual) bir beslenme fonksiyonu olmalıdır. Bu fonksiyon, türetilmiş sınıflarda farklı şekillerde çalışmalıdır.
+
+
+
+
+
+
+
+
+2.	Hayvan Sınıfından Türetilen Sınıflar
+
+Aslan, Zebra, Kartal gibi hayvanları temsil eden sınıflar, Hayvan sınıfından türetilmelidir.
+Her sınıf, kendi türüne özgü özellikleri ve davranışları içermelidir.
+Örneğin, Aslan sınıfı, etle beslenme davranışına sahip olabilir.
+
+3.	Hayvanat Bahçesi Sınıfı
+
+Hayvanat bahçesini temsil eden bir sınıf oluşturulmalıdır.
+Hayvanların koleksiyonunu (dizi, liste veya vektör gibi) içeren bir veri üyesine sahip olmalıdır.
+Yeni hayvan eklemek, var olan hayvanları gösterme/düzenlemek ve besleme işlemlerini gerçekleştirmek gibi işlevleri içermelidir.
+
+
+
+
+Hayvanat bahçesi sınıfı, hayvanların özelliklerini ve beslenme durumlarını gösteren bir rapor üretmelidir.
+Üretilen raporda hayvanların kendi türleri arasındaki yaşları için harmonik ve aritmetik ortalamaları gösterilmelidir. Bu sebeple proje oluşturulurken 10, 5, 7 yaşlarında üç tane aslan eklenmelidir. 
+Hayvanlar gösterilirken her tür kendi içerisinde yaşa göre küçükten büyüğe doğru sıralanmalıdır.
+
+
+
+
+
+4.	Ana Program
+
+Ana program aracılığıyla kullanıcı, hayvanları ve hayvanat bahçesini yönetmelidir.
+Kullanıcıya, hayvan eklemek, hayvanları göstermek, hayvanları düzenlemek ve hayvanları beslemek gibi seçenekler sunmalıdır.
+Kullanıcıdan gerekli bilgileri alarak yeni hayvanları hayvanat bahçesine ekleyebilmeli ve mevcut hayvanları göstermelidir.
+Besleme işleminde, kullanıcı bir hayvan seçebilmeli ve seçilen hayvana uygun beslenme işlemini gerçekleştirebilmelidir.
+Kullanıcıya, hayvanların bilgilerini gösteren bir rapor sunulmalıdır.
+Kullanıcıya çıkış seçenegi sunularak program sonlandırılmalıdır.
+
+5.	Kullanıcı Arayüzü
+
+
+Kullanıcı dostu bir arayüz tasarlanmalıdır.
+Açılış ekranında adınız, soyadınız, öğrenci numaranız ve dersi aldığınız öğretim üyesinin ismi olmalıdır.
+Kullanıcıya, komutlar aracılığıyla seçenekler sunulmalıdır.
+Kullanıcıdan gerekli bilgiler alınırken hatalı girişleri engellemek için doğrulama yapılmalıdır.
+
+Proje Detayları
+Hayvan Sınıfı
+
+Hayvanların ortak özelliklerini ve davranışlarını temsil eden Hayvan sınıfı oluşturulmalıdır.
+Hayvanın adı, türü ve yaşı verilerini içermelidir.
+Hayvanın bilgilerinin görüntülenebileceği bir fonksiyon içermelidir.
+Hayvanın bilgilerinin düzenlenebileceği bir fonksiyon içermelidir.
+Sanal (virtual) bir beslenme fonksiyonu olmalıdır. Bu fonksiyon, türetilmiş sınıflarda farklı şekillerde çalışmalıdır.
+
+
+
+
+
+
+
+
+2.	Hayvan Sınıfından Türetilen Sınıflar
+
+Aslan, Zebra, Kartal gibi hayvanları temsil eden sınıflar, Hayvan sınıfından türetilmelidir.
+Her sınıf, kendi türüne özgü özellikleri ve davranışları içermelidir.
+Örneğin, Aslan sınıfı, etle beslenme davranışına sahip olabilir.
+
+3.	Hayvanat Bahçesi Sınıfı
+
+Hayvanat bahçesini temsil eden bir sınıf oluşturulmalıdır.
+Hayvanların koleksiyonunu (dizi, liste veya vektör gibi) içeren bir veri üyesine sahip olmalıdır.
+Yeni hayvan eklemek, var olan hayvanları gösterme/düzenlemek ve besleme işlemlerini gerçekleştirmek gibi işlevleri içermelidir.
+
+
+
+
+Hayvanat bahçesi sınıfı, hayvanların özelliklerini ve beslenme durumlarını gösteren bir rapor üretmelidir.
+Üretilen raporda hayvanların kendi türleri arasındaki yaşları için harmonik ve aritmetik ortalamaları gösterilmelidir. Bu sebeple proje oluşturulurken 10, 5, 7 yaşlarında üç tane aslan eklenmelidir. 
+Hayvanlar gösterilirken her tür kendi içerisinde yaşa göre küçükten büyüğe doğru sıralanmalıdır.
+
+
+
+
+
+4.	Ana Program
+
+Ana program aracılığıyla kullanıcı, hayvanları ve hayvanat bahçesini yönetmelidir.
+Kullanıcıya, hayvan eklemek, hayvanları göstermek, hayvanları düzenlemek ve hayvanları beslemek gibi seçenekler sunmalıdır.
+Kullanıcıdan gerekli bilgileri alarak yeni hayvanları hayvanat bahçesine ekleyebilmeli ve mevcut hayvanları göstermelidir.
+Besleme işleminde, kullanıcı bir hayvan seçebilmeli ve seçilen hayvana uygun beslenme işlemini gerçekleştirebilmelidir.
+Kullanıcıya, hayvanların bilgilerini gösteren bir rapor sunulmalıdır.
+Kullanıcıya çıkış seçeneği sunularak program sonlandırılmalıdır.
+
+5.	Kullanıcı Arayüzü
+
+
+Kullanıcı dostu bir arayüz tasarlanmalıdır.
+Açılış ekranında adınız, soyadınız, öğrenci numaranız ve dersi aldığınız öğretim üyesinin ismi olmalıdır.
+Kullanıcıya, komutlar aracılığıyla seçenekler sunulmalıdır.
+Kullanıcıdan gerekli bilgiler alınırken hatalı girişleri engellemek için doğrulama yapılmalıdır.
+
