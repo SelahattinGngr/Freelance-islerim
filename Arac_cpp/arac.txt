@@ -1,0 +1,42 @@
+1. TANIMLAMA
+
+Bu ara sınavda Araç Tamir Atölyesinde, sadece 1 günlük tamir işlemlerini simüle eden c++ kodunu yazmanız gerekmektedir. Araç Tamir Atölyesinde müşteriler araçlarını atölyeye getirir, arıza türüne göre uygun istasyona alınıp tamir işlemi yapılır ve araç tamir edildikten sonra atölyeden çıkar. Kodu yazarken sınıf yapısı, yığın ve kuyruk yapılarını kullanınız (Yığın ve kuyruk yapılarını bağlı liste ile oluşturunuz. Hazır standart C++ kuyruk ve yığın yapılarını kullanmayınız).
+
+2. PROBLEM
+Araç Tamir Atölyesi probleminde, başlangıçta tamir ihtiyacı olan araçlar servise gelmekte ve arıza türlerine göre hangi istasyonda tamir edilecekse ilgili istasyonun bekleme alanına alınmaktadır. Atölyede 3 istasyon bulunmaktadır ve her bir istasyonun maksimum 3 araç kapasitesi bulunmaktadır. Araçların tamir süreleri farklılık gösterebilir. Her bir istasyonda giriş ve çıkış aynı kapıdan yapılmaktadır. Tamir işlemi biten aracın istasyondan çıkabilmesi için arkasında herhangi bir araç olmaması gerekir. Eğer arkasında bulunan araçların tamiri devam ediyorsa arkadaki araçların tamir işleminin bitmesini beklemelidir. Her bir aracın istasyona gelme zamanı, bekleme alanına alınması, tamir işlemine başlama ve aracın teslim edilme saatleri kaydedilmektedir.
+
+Problem adımları:
+Tamir atölyesinin çalışma saatleri 08.00-20.00 arasındadır.
+- Tamir atölyesinde 3 farklı istasyon bulunmaktadır, bunlar; mekanik, elektrik ve kaporta istasyonlarıdır.
+- Araçlar tamir atölyesine vardıklarında ilgili istasyonun bekleme alanında bekleyeceklerdir.
+- Her bir istasyonda aynı anda maksimum 3 araç tamiri yapılmaktadır.
+- Araç tamir atölyesine gelen araçların arızalarına göre istasyon bilgisi ve tamir süresi Arac.txt dosyasında
+verilmiştir.
+- Her bir istasyonun yalnızca bir giriş kapısı vardır. Giriş ve çıkış aynı kapıdan yapılmaktadır. Bu yüzden
+bir istasyonda bulunan aracın tamiri bitmiş olsa dahi arkasındaki araçların da tamiri bitmeden çıkış
+yapamaz.
+- Bir istasyonda tüm araçların tamiri bitmişse araçlar çıkış yapabilir. En arkadaki aracın tamiri bitmişse, bu
+araç çıkabilir. Eğer önündeki araçların tamiri devam ediyorsa bekleme alanından istasyona yeni araç
+alınır.
+- Bir istasyonda tamir işlemi biten bir aracın fazla beklemesini önlemek amacıyla, aracın arkasında tamir
+işlemi devam eden bir araç varsa istasyona yeni araç alınmaz. Tamir işlemleri bitip araçlar çıkış yaptıktan
+sonra istasyona yeni araç alınabilir.
+- Araçların araç tamir atölyesine geldikleri saat, bekleme alanından istasyona alındıkları saat, toplam tamir
+süresi ve atölyeden çıkış yaptıkları saatlerin bilgisi çıktı dosyasına kaydedilecektir.
+- Araçların istasyona giriş ve çıkış yaparken geçen süre dikkate alınmayacaktır.
+
+3. OLUŞTURULACAKSINIFLAR
+(Kodu yazarken ihtiyaç durumunda daha fazla sınıf ve fonksiyon oluşturulabilir. Verilen fonksiyonlar örnek amaçlıdır. Fonksiyonların alacağı parametreleri siz tanımlamalısınız.)
+main.cpp: Gerekli sınıflardan nesnelerin oluşturulması, uygun veri yapılarına eklenmesi, ekrana gerekli mesajlarını yazdıracak fonksiyonların çağrılması gibi işlemler tanımlanmalıdır.
+SirayaAl(): Girdi veri dosyasındaki bilgileri okuyup, araçları ilgili istasyonun bekleme alanına getiren fonksiyondur.
+TamirEt(): Her bir aracın bekleme alanından alınıp ilgili istasyonlara getiren fonksiyondur.
+
+4. GİRDİ VERİ DOSYALARI
+Araç tamir atölyesine gelen araçların arızalarına göre istasyon bilgisi ve tamir süresi Arac.txt dosyasında verilmiştir. 5 araç için örnek veri seti Tablo-2 de verilmiştir.
+Örneğin 1 numaralı araç elektrik arızası için atölyeye saat 7:00’de gelmiştir. İstasyon çalışmaya saat 8:00’de başladığı için ilk olarak gelen bu aracı saat 8:00’de bekleme alanından elektrik istasyonuna alınır ve tamir edilmeye başlanır. Tamir süresi 30 dakika olan bu aracın arkasındaki araçların tamir süreleri ve çıkış saatleri göz önüne alınarak çıkış saati hesaplanacaktır.
+
+ÇIKTI DOSYALARI
+
+Araçların araç tamir atölyesine geldikleri saat, bekleme alanından istasyona alindıkları saat, toplam tamir süresi ve atolyeden cikis yabtiklari saatlerin bilgisi cikti dosyasina kaydedilecektir.
+
+Örneğin 1 numarali elektrik arızaszi icin istasyona 08:00’de alınmış ve tamir süresi 30 dakika olmasına ragmen istasyonda arkasindaki araclarin tamir isleminin bitmesini bekledigi icin 1 numarali arac 09:50'de teslim edilmistir.
